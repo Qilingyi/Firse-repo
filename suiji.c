@@ -8,7 +8,7 @@ int main()
 	srand((unsigned int)time(NULL));
 	int x[6];
 	for(int i=0;i<6;i++){
-		x[i]=rand()%33;
+		x[i]=rand()%33+0;
 		printf("%d ",x[i]);
 	}
 	printf("\n");
@@ -23,5 +23,6 @@ int main()
 		}
 	}
 	printf("%d",num);
+
 	return 0;
 }
